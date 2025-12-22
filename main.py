@@ -156,7 +156,7 @@ def printRaces(players):
 def printAwesome(players):
     averageScores = [[p.name, p.averageScore()] for p in players]
     averageScores.sort(key=lambda x: x[1], reverse=True)
-    print("Average Scores (sorted):")
+    print("The most aweson players are:")
     for name, score in averageScores:
         print(f"{name}: {score:.2f}")
         
@@ -235,3 +235,35 @@ for p in fullPlayers:
 
 save_players(fullPlayers, 'players.json')
 save_players(fullPlayers, f'players_backup_{totalGames}.json')
+
+
+def git_commit_and_push(files, message=None):
+    """Stage, commit and push the given files if there are changes."""
+    import subprocess
+    try:
+        # Stage files (ignore missing files)
+        subprocess.run(['git', 'add'] + files, check=False)
+
+        commit_msg = message or 'Update players data'
+        res = subprocess.run(['git', 'commit', '-m', commit_msg], capture_output=True, text=True)
+        if res.returncode != 0:
+            out = (res.stdout or '') + (res.stderr or '')
+            if 'nothing to commit' in out.lower():
+                print('No changes to commit.')
+                return
+            print('Git commit failed:', out)
+            return
+
+        push_res = subprocess.run(['git', 'push'], capture_output=True, text=True)
+        if push_res.returncode != 0:
+            print('Git push failed:', push_res.stderr or push_res.stdout)
+            return
+
+        print('Committed and pushed changes to remote.')
+    except Exception as e:
+        print('Git operation failed:', e)
+
+
+# Attempt to commit and push the updated JSON files
+git_files = ['players.json', f'players_backup_{totalGames}.json', 'mostFair.json']
+git_commit_and_push(git_files, message=f'Update players data after {totalGames} games')
