@@ -3,28 +3,28 @@
     "scores": [
       [
         "Space Marines",
-        1,
-        0
+        0,
+        3
       ],
       [
         "Imperial Guard",
         0,
-        2
+        1
       ],
       [
         "Sisters of Battle",
-        0,
+        3,
         0
       ],
       [
         "Orks",
-        0,
+        1,
         1
       ],
       [
         "Necrons",
-        1,
-        0
+        3,
+        1
       ],
       [
         "Chaos Marines",
@@ -33,24 +33,24 @@
       ],
       [
         "Eldar",
-        0,
+        1,
         1
       ],
       [
         "Dark Eldar",
-        2,
-        0
+        1,
+        1
       ],
       [
         "Tau",
-        1,
-        1
+        2,
+        0
       ]
     ],
-    "name": "Greg",
+    "name": "BenPrime",
     "lastRaces": [
+      0,
       2,
-      4,
       3
     ],
     "raceNumber": 5
@@ -59,13 +59,13 @@
     "scores": [
       [
         "Space Marines",
-        0,
+        2,
         1
       ],
       [
         "Imperial Guard",
         0,
-        2
+        3
       ],
       [
         "Sisters of Battle",
@@ -75,97 +75,41 @@
       [
         "Orks",
         1,
-        4
+        0
       ],
       [
         "Necrons",
-        0,
+        1,
         0
       ],
       [
         "Chaos Marines",
-        0,
-        1
-      ],
-      [
-        "Eldar",
-        0,
-        0
-      ],
-      [
-        "Dark Eldar",
-        1,
-        4
-      ],
-      [
-        "Tau",
-        0,
-        0
-      ]
-    ],
-    "name": "Rob",
-    "lastRaces": [
-      0,
-      3,
-      2
-    ],
-    "raceNumber": 4
-  },
-  {
-    "scores": [
-      [
-        "Space Marines",
-        2,
-        0
-      ],
-      [
-        "Imperial Guard",
-        2,
-        0
-      ],
-      [
-        "Sisters of Battle",
-        1,
-        1
-      ],
-      [
-        "Orks",
         1,
         2
       ],
       [
-        "Necrons",
-        0,
-        1
-      ],
-      [
-        "Chaos Marines",
-        1,
-        1
-      ],
-      [
         "Eldar",
-        0,
-        0
+        2,
+        1
       ],
       [
         "Dark Eldar",
         0,
-        1
+        2
       ],
       [
         "Tau",
-        0,
+        3,
         0
       ]
     ],
-    "name": "Mercer",
+    "name": "Will",
     "lastRaces": [
-      7,
       5,
+      0,
       1
     ],
-    "raceNumber": 4
+    "raceNumber": 2
   },
   {
     "scores": [
@@ -176,18 +120,18 @@
       ],
       [
         "Imperial Guard",
-        1,
+        0,
         0
       ],
       [
         "Sisters of Battle",
-        0,
-        1
+        1,
+        0
       ],
       [
         "Orks",
-        1,
-        0
+        0,
+        1
       ],
       [
         "Necrons",
@@ -196,8 +140,8 @@
       ],
       [
         "Chaos Marines",
-        2,
-        1
+        0,
+        0
       ],
       [
         "Eldar",
@@ -207,20 +151,20 @@
       [
         "Dark Eldar",
         0,
-        1
+        0
       ],
       [
         "Tau",
-        2,
+        1,
         0
       ]
     ],
-    "name": "Zazz",
+    "name": "CircuetBoard",
     "lastRaces": [
-      2,
-      3,
-      1
+      8,
+      7,
+      0
     ],
-    "raceNumber": 0
+    "raceNumber": 1
   }
 ]
