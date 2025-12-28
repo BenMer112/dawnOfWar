@@ -42,8 +42,8 @@ class player :
     def playerRaceScore(self):
         raceWins = self.scores[self.raceNumber][1]
         raceLosses = self.scores[self.raceNumber][2]
-        if raceWins + raceLosses == 0:
-            return 0.3  # Low score as never played
+        if raceWins == 0:
+            return 0
         score = raceWins/(raceWins + raceLosses)
         return score
     
