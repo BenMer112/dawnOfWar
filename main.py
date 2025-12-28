@@ -121,8 +121,7 @@ def firstRace(players):
             if player.illegalRace() == False:
                 break
 
-        player.raceNumber = 0
-
+    
 def nextRaces(players):
     x = len(players) - 1
     while x >= 0:
