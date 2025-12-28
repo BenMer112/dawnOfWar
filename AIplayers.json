@@ -390,5 +390,61 @@
       0
     ],
     "raceNumber": 0
+  },
+  {
+    "scores": [
+      [
+        "Space Marines",
+        1,
+        1
+      ],
+      [
+        "Imperial Guard",
+        1,
+        0
+      ],
+      [
+        "Sisters of Battle",
+        0,
+        1
+      ],
+      [
+        "Orks",
+        1,
+        1
+      ],
+      [
+        "Necrons",
+        1,
+        1
+      ],
+      [
+        "Chaos Marines",
+        1,
+        1
+      ],
+      [
+        "Eldar",
+        1,
+        1
+      ],
+      [
+        "Dark Eldar",
+        2,
+        0
+      ],
+      [
+        "Tau",
+        1,
+        0
+      ]
+    ],
+    "name": "Jezz",
+    "lastRaces": [
+      1,
+      2,
+      6
+    ],
+    "raceNumber": 1
   }
 ]

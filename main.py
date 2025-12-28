@@ -155,7 +155,7 @@ def printRaces(players):
 def printAwesome(players):
     averageScores = [[p.name, p.averageScore()] for p in players]
     averageScores.sort(key=lambda x: x[1], reverse=True)
-    print("The most aweson players are:")
+    print("The most awesome players are:")
     for name, score in averageScores:
         print(f"{name}: {score:.2f}")
         
